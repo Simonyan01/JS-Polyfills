@@ -1,6 +1,6 @@
 Array.prototype.instanceOfMap = function (callbackFn) {
     if (typeof callbackFn !== "function") {
-        throw new Error(`${callbackFn} is not a function`)
+        throw new TypeError(`${callbackFn} is not a function`)
     }
 
     const result = []
