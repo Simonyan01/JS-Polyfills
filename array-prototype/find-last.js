@@ -1,4 +1,4 @@
-Array.prototype.instanceOfFindLastIndex = function (callbackFn) {
+Array.prototype.instanceOfFindLast = function (callbackFn) {
     if (typeof callbackFn !== "function") {
         throw new TypeError(`${callbackFn} is not a function`)
     }

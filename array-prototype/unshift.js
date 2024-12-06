@@ -1,7 +1,8 @@
 Array.prototype.instanceOfUnshift = function (...args) {
-    let currentLength = this.length
+    // this.splice(0, 0, ...args)
+    // return this.length
 
-    for (let i = currentLength - 1; i >= 0; --i) {
+    for (let i = this.length - 1; i >= 0; --i) {
         this[i + args.length] = this[i]
     }
 

@@ -7,6 +7,7 @@ Array.prototype.instanceOfJoin = function (separator = ",") {
         if (i > 0) {
             result += separator
         }
+
         result += this[i] ?? ""
     }
 
